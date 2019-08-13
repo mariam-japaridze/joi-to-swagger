@@ -13,7 +13,7 @@
     "node": ">=8.9.0"
   },
   "keywords": [
-    "hapi__joi"
+    "hapi__joi",
     "joi",
     "swagger",
     "schema",
