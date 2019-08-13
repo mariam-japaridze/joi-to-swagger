@@ -1,5 +1,5 @@
 {
-  "name": "joi-to-swagger",
+  "name": "hapi-joi-to-swagger",
   "version": "3.2.0",
   "description": "",
   "main": "index.js",
@@ -13,6 +13,7 @@
     "node": ">=8.9.0"
   },
   "keywords": [
+    "hapi__joi"
     "joi",
     "swagger",
     "schema",
@@ -22,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Twipped/joi-to-swagger.git"
+    "url": "https://github.com/mariam-japaridze/joi-to-swagger.git"
   },
   "author": "Jocelyn Badgley <joc@twipped.com>",
   "license": "MIT",
@@ -31,12 +32,12 @@
     "eslint-config-twipped": "~3.0.0",
     "eslint-plugin-node": "~8.0.1",
     "eslint-plugin-promise": "~4.1.1",
-    "joi": "~14.3.1",
+    "@hapi/joi": "^15.1.0",
     "tap": "~12.6.1",
     "tapsuite": "~1.1.1"
   },
   "peerDependencies": {
-    "joi": ">= 13"
+    "@hapi/joi": ">= 13"
   },
   "files": [
     "index.js",
