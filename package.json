@@ -33,11 +33,12 @@
     "eslint-plugin-node": "~8.0.1",
     "eslint-plugin-promise": "~4.1.1",
     "@hapi/joi": "^15.1.0",
+    "@types/hapi__joi": "^15.0.3",
     "tap": "~12.6.1",
     "tapsuite": "~1.1.1"
   },
   "peerDependencies": {
-    "@hapi/joi": ">= 13"
+    "@hapi/joi": ">= 15"
   },
   "files": [
     "index.js",
